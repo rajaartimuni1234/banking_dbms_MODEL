@@ -74,7 +74,7 @@ const UsersList = () => {
                             </th>
                         </tr>
                     </thead>
-             <tbody>
+                    <tbody>
                 {userData && userData.map((user)=>(
                            <tr key={user._id}>
                            <td className='px-4 py-3'>{user.name}</td>
